@@ -1,0 +1,32 @@
+.filter-section {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  .category-checkbox {
+    margin-bottom: 10px;
+  }
+  
+  .category-checkbox label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .category-checkbox input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .category-checkbox input[type="checkbox"]:checked + label {
+    font-weight: bold;
+  }
+  
+  /* Optional: Style the heading */
+  .filter-section h2 {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
